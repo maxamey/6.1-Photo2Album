@@ -9,8 +9,8 @@
     [x] - takes up full screen
     [x] - with class, display
     [x] - opacity of 50% (to see the underlying content)
-    [] - has large image
-    [] - hidden by default
+    [x] - has large image
+    [x] - hidden by default
   [] - click handler
     [] - adds class to show modal
     [] - injects image clicked on into modal

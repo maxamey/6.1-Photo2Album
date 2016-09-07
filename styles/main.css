@@ -25,6 +25,10 @@
   width: 100%;
 }
 
+.modal--hidden {
+  visibility: hidden;
+}
+
 .modal__fullImage {
 
 }
