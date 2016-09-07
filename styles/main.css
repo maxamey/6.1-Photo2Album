@@ -1,3 +1,15 @@
 /*
   Main Stylesheet
 */
+
+* {
+  box-sizing: border-box;
+}
+
+.thumbnail {
+  width: 200px;
+}
+
+/*
+  Modal Styles
+*/

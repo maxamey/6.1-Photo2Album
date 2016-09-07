@@ -1,18 +1,20 @@
-# FEE Boilerplate React/Bable/Webpack 
+# 6.2 Refactor of 6.1
 
-## Initial Setup Gotchas with Babel and Webpack
-### DO NOT DO THESE WHEN STARTING NEW PROJECTS WHEN COPYING THIS REPO
-  - Install webpack `$ npm install --save-dev webpack`
-  - Run `$ npm install --save-dev babel-cli`
-  - Create `.babelrc` file `$ touch .babelrc`
-    ```js
-      {
-        "presets": ["es2015"]
-      }
-    ```
-  - Add to `scripts: {}` inside of `package.json` to specify input/output folders for babel to run
-  - `$ npm install --save-dev babel-loader babel-core babel-preset-es2015 babel-preset-react`
-  - `$ npm install --save-dev react react-dom`
+## Dev Task list
+### Modal
+  [x] - view that has
+    [x] - a thumbnail image: src, alt class
+    [x] - smaller size (200 x 200)
+  [] - modal element
+    [] - takes up full screen
+    [] - with class, display
+    [] - opacity of 50% (to see the underlying content)
+    [] - has large image
+    [] - hidden by default
+  [] - click handler
+    [] - adds class to show modal
+    [] - injects image clicked on into modal
+  [] -
 
 ## Development
   - `$ npm install -g webpack`
