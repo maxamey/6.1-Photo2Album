@@ -11,7 +11,7 @@ render((
            component={ Main } />
     <Route path="/nav"
            component={ Nav }>
-      <Route path="/album"
+      <Route path="/album/:title"
              compnent={ Album } />
     </Route>
   </Router>
