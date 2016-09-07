@@ -11,12 +11,15 @@
     [x] - opacity of 50% (to see the underlying content)
     [x] - has large image
     [x] - hidden by default
-  [] - click handler
+  [x] - click handler for thumbnail
     [x] - set up handler
     [x] - adds class to show modal
     [x] - get source and alt from clicked item
     [x] - injects image clicked on into modal
-  [] -
+  [x] - click handler for exit modal
+    [x] - create element to click
+    [x] - set up handler
+  []
 
 ## Development
   - `$ npm install -g webpack`
