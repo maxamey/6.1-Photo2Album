@@ -13,3 +13,18 @@
 /*
   Modal Styles
 */
+
+.modal--display {
+  background-color: rgba(0, 0, 0, 0.7);
+  visibility: visible;
+  height: 100%;
+  position: fixed;
+  right: 0%;
+  text-align: center;
+  top: 0%;
+  width: 100%;
+}
+
+.modal__fullImage {
+
+}

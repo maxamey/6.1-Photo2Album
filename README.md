@@ -5,10 +5,10 @@
   [x] - view that has
     [x] - a thumbnail image: src, alt class
     [x] - smaller size (200 x 200)
-  [] - modal element
-    [] - takes up full screen
-    [] - with class, display
-    [] - opacity of 50% (to see the underlying content)
+  [x] - modal element
+    [x] - takes up full screen
+    [x] - with class, display
+    [x] - opacity of 50% (to see the underlying content)
     [] - has large image
     [] - hidden by default
   [] - click handler
