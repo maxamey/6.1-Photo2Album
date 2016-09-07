@@ -12,8 +12,10 @@
     [x] - has large image
     [x] - hidden by default
   [] - click handler
-    [] - adds class to show modal
-    [] - injects image clicked on into modal
+    [x] - set up handler
+    [x] - adds class to show modal
+    [x] - get source and alt from clicked item
+    [x] - injects image clicked on into modal
   [] -
 
 ## Development
