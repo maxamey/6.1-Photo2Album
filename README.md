@@ -22,7 +22,7 @@
   [] - set up data object
     [x] - set up sources
     [] - set up alts
-  [] - Clicking an Album (title) should load a different list of the photos
+  [x] - Clicking an Album (title) should load a different list of the photos
     [x] - Set up a list of photos to display
       [x] - make a ul in which to put the titles
       [x] - make a loop over the data to grab the image sources from the data
@@ -31,8 +31,10 @@
       [x] - make a ul in which to put the titles
       [x] - make a loop over the data to grab the album titles
       [x] - put the titles into the list as list items
-    [] - Set up an event listener for clicking on album titles
-    [] - Set the state (value) of the currentAlbum to be the title that is clicked on
+    [x] - Set up an event listener for clicking on album titles
+    [x] - Set the state (value) of the currentAlbum to be the title that is clicked on
+  [x] - Make a heading that displays the current album title
+
 
 ## Development
   - `$ npm install -g webpack`
