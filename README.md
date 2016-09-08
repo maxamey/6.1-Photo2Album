@@ -32,6 +32,7 @@
       [x] - make a loop over the data to grab the album titles
       [x] - put the titles into the list as list items
     [] - Set up an event listener for clicking on album titles
+    [] - Set the state (value) of the currentAlbum to be the title that is clicked on
 
 ## Development
   - `$ npm install -g webpack`
