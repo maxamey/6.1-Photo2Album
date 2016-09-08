@@ -27,10 +27,10 @@
       [x] - make a ul in which to put the titles
       [x] - make a loop over the data to grab the image sources from the data
       [x] - put the sources in the current list item's image's attributes
-    [] - Set up a list of album titles
+    [x] - Set up a list of album titles
       [x] - make a ul in which to put the titles
-      [] - make a loop over the data to grab the album titles
-      [] - put the titles into the list as list items
+      [x] - make a loop over the data to grab the album titles
+      [x] - put the titles into the list as list items
     [] - Set up an event listener for clicking on album titles
 
 ## Development
