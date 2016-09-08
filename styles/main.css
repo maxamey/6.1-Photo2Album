@@ -6,13 +6,127 @@
   box-sizing: border-box;
 }
 
+html {
+  background-color: rgb(243, 243, 243);
+  font-family: Helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.mainContainer {
+  height: 663px;
+  position: relative;
+}
+
+.navContainer {
+  border-right: 3px solid rgb(252, 98, 93);
+  display: inline-block;
+  height: 100%;
+  position: fixed;
+  width: 25%;
+}
+
+.contentContainer {
+  display: inline-block;
+  margin-left: 25%;
+  overflow: scroll;
+  text-align: center;
+  width: 75%;
+}
+
+/* ul */
+.titlesContainer {
+  padding: 30px 0 0 10px;
+}
+
+/* li */
+.titles__item {
+  background-color: rgb(255, 255, 255);
+  border-bottom: 3px solid rgb(252, 98, 93);
+  border-left: 3px solid rgb(252, 98, 93);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top: 3px solid rgb(252, 98, 93);
+  line-height: 40px;
+  margin-bottom: 30px;
+  padding: 0 10px;
+  transition: letter-spacing .6s;
+}
+
+.titles__item:hover {
+  cursor: pointer;
+  letter-spacing: 3px;
+  transition: letter-spacing .6s;
+}
+
+.albumHeading {
+  color: rgb(252, 98, 93);
+  font-family: Helvetica, sans-serif;
+  font-size: 5rem;
+  font-weight: lighter;
+  margin: 30px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.thumbnails__container {
+  padding: 0;
+}
+
+.thumbnail__item {
+
+}
+
 .thumbnail {
+  display: inline-block;
   width: 200px;
 }
+
+.thumbnail:hover {
+  cursor: pointer;
+}
+
+
 
 /*
   Modal Styles
 */
+
+.modal__exit {
+  border: 3px solid rgb(252, 98, 93);
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  font-weight: lighter;
+  height: 40px;
+  left: 10%;
+  line-height: 36px;
+  margin: 0;
+  position: absolute;
+  top: 10%;
+  width: 40px;
+
+}
+
+.modal__exit:hover {
+  cursor: pointer;
+}
+
+/*.previousImage {
+  height: 20px;
+  width: 20px;
+}*/
+
+.nextImage {
+  height: 20px;
+  width: 20px;
+}
+
+/*.changeImage {
+
+}*/
 
 .modal--display {
   background-color: rgba(0, 0, 0, 0.7);
@@ -30,5 +144,6 @@
 }
 
 .modal__fullImage {
-  width: 80%;
+  border: 3px solid black;
+  height: 80%;
 }
