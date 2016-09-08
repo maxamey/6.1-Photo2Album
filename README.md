@@ -19,7 +19,9 @@
   [x] - click handler for exit modal
     [x] - create element to click
     [x] - set up handler
-  []
+  [] - set up data object
+    [x] - set up sources
+    [] - set up alts
 
 ## Development
   - `$ npm install -g webpack`
